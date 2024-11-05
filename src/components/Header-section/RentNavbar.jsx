@@ -76,7 +76,7 @@ const RentNavbar = () => {
                 //     setShowMenu("");
                 //   }}
                 >
-                  ABOUT
+                  ABOUTUS
                 </div>
               </a>
               <a href="/#ContactUs" aria-current="page">
@@ -86,7 +86,7 @@ const RentNavbar = () => {
                 //     setShowMenu("");
                 //   }}
                 >
-                  CONTACT
+                  CONTACTUS
                 </div>
               </a>
               <a href="/" aria-current="page">
@@ -233,7 +233,7 @@ const RentNavbar = () => {
                   {activeSection === "AboutUs" ? (
                     <h1 className="text-green">ABOUT</h1>
                   ) : (
-                    <h1>ABOUT</h1>
+                    <h1>ABOUTUS</h1>
                   )}
                 </a>
               </li>
@@ -243,7 +243,7 @@ const RentNavbar = () => {
                   {activeSection === "ContactUs" ? (
                     <h1 className="text-green">CONTACT</h1>
                   ) : (
-                    <h1>CONTACT</h1>
+                    <h1>CONTACTUS</h1>
                   )}
                 </a>
               </li>
